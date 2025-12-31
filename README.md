@@ -10,7 +10,7 @@ This project utilizes Connectome-based Predictive Modeling (CPM) to identify fun
 ## 📄 Citation
 If you use this code or methodology, please cite the paper and the software DOI:
 * **Paper:** Bohnert, D., et al. (In Review). Predicting LSD-induced Subjective Experience via Connectome-based Predictive Modeling. Cell Reports Medicine.
-* **Code:** [DOI Pending - Link will be active upon publication]
+* **Code:** DOI: 10.5281/zenodo.18109254
 
 ## 📂 Repository Structure
 
