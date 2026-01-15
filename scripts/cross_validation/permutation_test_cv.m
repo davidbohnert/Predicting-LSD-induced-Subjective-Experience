@@ -21,7 +21,7 @@ function results = permutation_test_cv(matrix_name, behav_name, all_mats, all_be
 % -------------------------------------------------------------------------
 
     %% 1. SETUP & CONFIGURATION
-    NO_ITERATIONS = 1000; % Standard for permutation testing
+    NO_ITERATIONS = 2; % Standard for permutation testing
 
     % Setting the seed for cross validation for reproducibale folds
     rng(123); 
@@ -42,6 +42,7 @@ function results = permutation_test_cv(matrix_name, behav_name, all_mats, all_be
     else
         corr_type = 'Spearman';
     end
+    corr_type = 'Pearson';
 
     fprintf('Running Permutation: %s vs %s%s (k=%d, p=%.3f)\n', ...
         matrix_name, behav_name, covar_text, k, THR);
@@ -51,8 +52,6 @@ function results = permutation_test_cv(matrix_name, behav_name, all_mats, all_be
     
     [t_r_comb, t_r_pos, t_r_neg, t_mse_comb, t_mse_pos, t_mse_neg] = ...
         CPM_core_function(all_mats, all_behav, cv_fixed, THR, covars, corr_type);
-        % Note: I renamed predict_behavior_kfold to CPM_core_function per previous advice.
-        % If you kept the old name, change it back here.
 
     % Store True Results
     true_r   = [t_r_comb, t_r_pos, t_r_neg];

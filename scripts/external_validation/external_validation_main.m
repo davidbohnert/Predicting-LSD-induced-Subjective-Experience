@@ -43,7 +43,7 @@ clear; clc;
 %% 1. CONFIGURATION & PATH SETUP
 
 scriptDir = fileparts(mfilename('fullpath'));
-baseDir = fullfile(scriptDir, '..'); 
+baseDir = fullfile(scriptDir, '..', '..'); 
 
 inputPath = fullfile(baseDir, 'data');
 outputPath = fullfile(baseDir, 'results');
@@ -55,7 +55,7 @@ outputXlsx = fullfile(outputPath, 'external_permutation_results.xlsx');
 
 % --- Analysis Parameters ---
 % Define exactly which behaviors and datasets to process here.
-BEHAV_SCALES = {'good', 'AED', 'MEQ30'};      % e.g., {'good', 'AED', 'MEQ30'}
+BEHAV_SCALES = {'GDE', 'AED', 'MEQ30'};      % e.g., {'GDE', 'AED', 'MEQ30'}
 TEST_DATASETS = {'other_psych', 'all_amphs'}; % e.g., {'other_psych', 'all_amphs'}
 
 subsetIdx = 20:67; % Subset of subjects for MEQ30, where there are fewer behavioral ratings
@@ -186,13 +186,69 @@ for tIdx = 1:length(TEST_DATASETS)
             % 1. Without Covariates
             results = permutation_test_external(diffTrainMatrix, diffTrainBehav, dMatsTr, dBehavTr, ...
                                                diffTestMatrix, dMatsTe, dBehavTe, [], outputTxt, results);
-            
+
             % 2. With Covariates
             results = permutation_test_external(diffTrainMatrix, diffTrainBehav, dMatsTr, dBehavTr, ...
-                                               diffTestMatrix, dMatsTe, dBehavTe, covars, outputTxt, results);
+                diffTestMatrix, dMatsTe, dBehavTe, covars, outputTxt, results);
         else
             fprintf('   (Skipping Block C: Difference files not found)\n');
         end
+
+        %% BLOCK C: Difference Matrix Analysis
+        fprintf('-> [Block C] Difference Matrix Analysis...\n');
+
+        diffTrainMatrix = 'LSD_difference';
+
+        % Construct Difference File Names
+        diffTestMatrix = [matrixTestName '_difference'];
+        diffTrainBehav = [behavTrainName '_difference'];
+        diffTestBehav  = [behavTestName '_difference'];
+
+        % Paths
+        pathM_Tr = fullfile(inputPath, 'connectomes', [diffTrainMatrix '.mat']);
+        pathM_Te = fullfile(inputPath, 'connectomes', [diffTestMatrix '.mat']);
+        pathB_Tr = fullfile(inputPath, 'behav',      [diffTrainBehav '.mat']);
+        pathB_Te = fullfile(inputPath, 'behav',      [diffTestBehav  '.mat']);
+
+        % Check if the Difference Connectome exists
+        if isfile(pathM_Tr) && isfile(pathM_Te)
+
+            % Load Difference Connectomes
+            tmp = load(pathM_Tr); f=fieldnames(tmp); dMatsTr = tmp.(f{1});
+            tmp = load(pathM_Te); f=fieldnames(tmp); dMatsTe = tmp.(f{1});
+
+            % If Difference Behavior Vector doesn't exist -> fall back to Standard Behavior
+            if isfile(pathB_Tr)
+                tmp = load(pathB_Tr); f=fieldnames(tmp); dBehavTr = tmp.(f{1});
+            else
+                dBehavTr = behavTrain;
+                diffTrainBehav = behavTrainName;
+            end
+
+            if isfile(pathB_Te)
+                tmp = load(pathB_Te); f=fieldnames(tmp); dBehavTe = tmp.(f{1});
+            else
+                dBehavTe = behavTest;
+                diffTestBehav = behavTestName;
+            end
+
+            % Adjust for MEQ30
+            if contains(behavTrainName, 'LSD_MEQ30')
+                dMatsTr = dMatsTr(:, :, subsetIdx);
+            end
+
+            % 1. Without Covariates
+            results = permutation_test_external(diffTrainMatrix, diffTrainBehav, dMatsTr, dBehavTr, ...
+                diffTestMatrix,  dMatsTe, dBehavTe, [], outputTxt, results);
+
+            % 2. With Covariates
+            results = permutation_test_external(diffTrainMatrix, diffTrainBehav, dMatsTr, dBehavTr, ...
+                diffTestMatrix,  dMatsTe, dBehavTe, covars, outputTxt, results);
+
+        else
+            fprintf('   (Skipping Block C: Difference connectome files not found)\n');
+        end
+
         
     end
 end
