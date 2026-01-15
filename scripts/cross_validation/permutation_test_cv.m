@@ -21,7 +21,7 @@ function results = permutation_test_cv(matrix_name, behav_name, all_mats, all_be
 % -------------------------------------------------------------------------
 
     %% 1. SETUP & CONFIGURATION
-    NO_ITERATIONS = 2; % Standard for permutation testing
+    NO_ITERATIONS = 1000; % Standard for permutation testing
 
     % Setting the seed for cross validation for reproducibale folds
     rng(123); 
@@ -42,7 +42,6 @@ function results = permutation_test_cv(matrix_name, behav_name, all_mats, all_be
     else
         corr_type = 'Spearman';
     end
-    corr_type = 'Pearson';
 
     fprintf('Running Permutation: %s vs %s%s (k=%d, p=%.3f)\n', ...
         matrix_name, behav_name, covar_text, k, THR);
