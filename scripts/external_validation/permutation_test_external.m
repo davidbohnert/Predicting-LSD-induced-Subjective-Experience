@@ -20,7 +20,7 @@ function results = permutation_test_external(matrix_train_name, behav_train_name
 % -------------------------------------------------------------------------
 
 %% 1. CONFIGURATION
-NO_ITERATIONS = 2;
+NO_ITERATIONS = 1000;
 
 k = 10;
 
@@ -45,7 +45,6 @@ if contains(behav_train_name, 'LSD_OBN') || contains(behav_train_name, 'LSD_MEQ3
 else
     corr_type = 'Spearman';
 end
-corr_type = 'Pearson';
 
 
 %% 2. TRUE MODEL PREDICTION (Iteration 1)
