@@ -12,6 +12,15 @@ If you use this code or methodology, please cite the paper and the software DOI:
 * **Paper:** Bohnert, D., et al. (In Review). Predicting LSD-induced Subjective Experience via Connectome-based Predictive Modeling. Cell Reports Medicine.
 * **Code:** [![DOI](https://zenodo.org/badge/1125843579.svg)](https://doi.org/10.5281/zenodo.18109253)
 
+## 🔎 Method provenance
+The CPM implementation in this repository was adapted for our datasets and analysis goals, and was partly guided by Boyle & Weng (2025), without altering the underlying CPM method.
+
+**Reference:** Boyle, R., & Weng, Y. (2025). *Studying the Connectome at a Large Scale.* In R. Whelan & H. Lemaître (Eds.), *Methods for Analyzing Large Neuroimaging Datasets* (pp. 365–394). Springer US. doi:10.1007/978-1-0716-4260-3_15
+
+## 👥 Contributors
+The CPM analysis pipeline was developed collaboratively by Olivia M. F. Rapp and David Bohnert, under the supervision of Mihai Avram.
+Network visualization scripts were implemented by David Bohnert.
+
 ## 📂 Repository Structure
 
 ```text
