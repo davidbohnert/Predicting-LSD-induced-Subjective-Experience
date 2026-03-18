@@ -3,13 +3,12 @@
 This repository contains the MATLAB and Python codebase associated with the manuscript:
 
 > **Predicting LSD-induced Subjective Experience via Connectome-based Predictive Modeling**
-> *Target Publication: Cell Reports Medicine*
 
 This project utilizes Connectome-based Predictive Modeling (CPM) to identify functional brain networks predictive of subjective effects induced by LSD. It includes pipelines for internal cross-validation, external validation on independent datasets, and network visualization.
 
 ## 📄 Citation
 If you use this code or methodology, please cite the paper and the software DOI:
-* **Paper:** Bohnert, D., et al. (In Review). Predicting LSD-induced Subjective Experience via Connectome-based Predictive Modeling. Cell Reports Medicine.
+* **Paper:** Bohnert, D., et al. (In Review). Neural Signatures of LSD-induced Subjective Experience Identified via Connectome-based Predictive Modeling.
 * **Code:** [![DOI](https://zenodo.org/badge/1125843579.svg)](https://doi.org/10.5281/zenodo.18109253)
 
 ## 🔎 Method provenance
