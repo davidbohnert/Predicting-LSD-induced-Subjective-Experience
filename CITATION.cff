@@ -3,6 +3,7 @@ message: "Please cite the accompanying manuscript and the software version used.
 title: "Neural Signatures of Lysergic Acid Diethylamide–Induced Subjective Experience Identified via Connectome-Based Predictive Modeling: analysis code"
 type: software
 version: 2.0.0
+date-released: 2026-09-10
 abstract: >-
   Analysis and visualization code accompanying the revised manuscript.
   The original CPM pipeline was developed collaboratively by Olivia M. F. Rapp

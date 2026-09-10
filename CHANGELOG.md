@@ -1,6 +1,6 @@
 # Changes during manuscript revision
 
-## v2.0.0 — Revised manuscript version (unreleased)
+## v2.0.0 — Revised manuscript version (2026-09-10)
 
 ### Analysis changes
 

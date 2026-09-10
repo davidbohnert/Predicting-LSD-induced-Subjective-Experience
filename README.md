@@ -114,9 +114,10 @@ internal_validation_main(cfg, "primary", no_iterations=3, workers=0, ...
 
 Please cite the accompanying manuscript and the software version used.
 Machine-readable software citation information is in [CITATION.cff](CITATION.cff).
-The manuscript is under revision. Version 2.0.0 is prepared for the revised
-submission; its Zenodo DOI will be added after release publication. Earlier code
-remains available in Git history and the original `v1.0.0` tag.
+Version 2.0.0 accompanies the revised manuscript submission (10 September
+2026). Its archived software citation will be linked from the
+[GitHub release](https://github.com/davidbohnert/Predicting-LSD-induced-Subjective-Experience/releases/tag/v2.0.0).
+Earlier code remains available in Git history and the original `v1.0.0` tag.
 
 The original CPM pipeline was developed collaboratively by Olivia M. F. Rapp
 and David Bohnert under the supervision of Mihai Avram. David Bohnert developed
