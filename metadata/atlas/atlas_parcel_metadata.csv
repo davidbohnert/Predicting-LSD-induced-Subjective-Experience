@@ -1,0 +1,417 @@
+ParcelID,DisplayLabel,Hemisphere,Network,SchaeferName,X,Y,Z,AnatomicalRegion,AnatomicalOverlapPercent,Voxels
+1,L visual 1,L,VIS,7Networks_LH_Vis_1,-32,-41,-21,Fusiform L,66.8,2797
+2,L visual 2,L,VIS,7Networks_LH_Vis_2,-30,-33,-18,Fusiform L,73.2,3344
+3,L visual 3,L,VIS,7Networks_LH_Vis_3,-36,-62,-17,Fusiform L,69.4,2494
+4,L visual 4,L,VIS,7Networks_LH_Vis_4,-24,-55,-8,Lingual L,56.8,3169
+5,L visual 5,L,VIS,7Networks_LH_Vis_5,-23,-73,-10,Fusiform L,42.8,3356
+6,L visual 6,L,VIS,7Networks_LH_Vis_6,-36,-81,-16,Fusiform L,33.2,2827
+7,L visual 7,L,VIS,7Networks_LH_Vis_7,-19,-37,-12,Fusiform L,32.3,1483
+8,L visual 8,L,VIS,7Networks_LH_Vis_8,-45,-70,-8,Occipital Inf L,74.5,3737
+9,L visual 9,L,VIS,7Networks_LH_Vis_9,-17,-86,-15,Lingual L,56.9,2637
+10,L visual 10,L,VIS,7Networks_LH_Vis_10,-12,-61,-5,Lingual L,78.0,2175
+11,L visual 11,L,VIS,7Networks_LH_Vis_11,-7,-76,-6,Lingual L,73.2,2467
+12,L visual 12,L,VIS,7Networks_LH_Vis_12,-25,-97,-12,Lingual L,47.3,4236
+13,L visual 13,L,VIS,7Networks_LH_Vis_13,-13,-43,-6,Lingual L,73.8,946
+14,L visual 14,L,VIS,7Networks_LH_Vis_14,-41,-87,-3,Occipital Mid L,76.4,3087
+15,L visual 15,L,VIS,7Networks_LH_Vis_15,-7,-97,-7,Calcarine L,74.3,4087
+16,L visual 16,L,VIS,7Networks_LH_Vis_16,-14,-57,1,Lingual L,88.3,1617
+17,L visual 17,L,VIS,7Networks_LH_Vis_17,-46,-73,6,Occipital Mid L,80.9,3440
+18,L visual 18,L,VIS,7Networks_LH_Vis_18,-5,-88,1,Calcarine L,90.3,3324
+19,L visual 19,L,VIS,7Networks_LH_Vis_19,-24,-96,6,Occipital Mid L,90.4,4720
+20,L visual 20,L,VIS,7Networks_LH_Vis_20,-14,-49,4,Lingual L,46.3,970
+21,L visual 21,L,VIS,7Networks_LH_Vis_21,-7,-74,9,Calcarine L,74.2,3735
+22,L visual 22,L,VIS,7Networks_LH_Vis_22,-19,-64,7,Calcarine L,80.9,1941
+23,L visual 23,L,VIS,7Networks_LH_Vis_23,-39,-84,14,Occipital Mid L,99.4,4515
+24,L visual 24,L,VIS,7Networks_LH_Vis_24,-11,-97,17,Occipital Sup L,52.7,4743
+25,L visual 25,L,VIS,7Networks_LH_Vis_25,-3,-84,24,Cuneus L,84.9,3649
+26,L visual 26,L,VIS,7Networks_LH_Vis_26,-12,-71,20,Calcarine L,51.3,2251
+27,L visual 27,L,VIS,7Networks_LH_Vis_27,-25,-85,22,Occipital Mid L,64.3,2783
+28,L visual 28,L,VIS,7Networks_LH_Vis_28,-32,-84,27,Occipital Mid L,96.4,1842
+29,L visual 29,L,VIS,7Networks_LH_Vis_29,-16,-89,33,Occipital Sup L,72.3,2650
+30,L visual 30,L,VIS,7Networks_LH_Vis_30,-12,-81,36,Cuneus L,71.8,2025
+31,L visual 31,L,VIS,7Networks_LH_Vis_31,-21,-79,45,Occipital Sup L,53.9,2043
+32,L somatomotor 1,L,SMN,7Networks_LH_SomMot_1,-50,10,1,Temporal Sup L,86.6,3125
+33,L somatomotor 2,L,SMN,7Networks_LH_SomMot_2,-56,-21,8,Temporal Sup L,91.2,3982
+34,L somatomotor 3,L,SMN,7Networks_LH_SomMot_3,-36,-24,10,Heschl L,66.9,1214
+35,L somatomotor 4,L,SMN,7Networks_LH_SomMot_4,-38,-9,13,Insula L,71.8,1985
+36,L somatomotor 5,L,SMN,7Networks_LH_SomMot_5,-36,-26,19,Rolandic Oper L,61.9,1435
+37,L somatomotor 6,L,SMN,7Networks_LH_SomMot_6,-59,-37,16,Temporal Sup L,94.2,2358
+38,L somatomotor 7,L,SMN,7Networks_LH_SomMot_7,-41,-35,14,Temporal Sup L,83.1,1621
+39,L somatomotor 8,L,SMN,7Networks_LH_SomMot_8,-49,-13,14,Rolandic Oper L,49.9,1906
+40,L somatomotor 9,L,SMN,7Networks_LH_SomMot_9,-60,-2,11,Rolandic Oper L,56.5,1804
+41,L somatomotor 10,L,SMN,7Networks_LH_SomMot_10,-48,-24,18,Rolandic Oper L,49.8,1631
+42,L somatomotor 11,L,SMN,7Networks_LH_SomMot_11,-61,-18,19,Postcentral L,65.9,1600
+43,L somatomotor 12,L,SMN,7Networks_LH_SomMot_12,-59,-2,24,Postcentral L,57.6,2246
+44,L somatomotor 13,L,SMN,7Networks_LH_SomMot_13,-62,-10,31,Postcentral L,100.0,1640
+45,L somatomotor 14,L,SMN,7Networks_LH_SomMot_14,-53,-9,30,Postcentral L,83.2,1458
+46,L somatomotor 15,L,SMN,7Networks_LH_SomMot_15,-55,-20,41,Postcentral L,41.4,1498
+47,L somatomotor 16,L,SMN,7Networks_LH_SomMot_16,-51,-7,43,Postcentral L,73.9,2388
+48,L somatomotor 17,L,SMN,7Networks_LH_SomMot_17,-48,-16,40,Postcentral L,98.8,1389
+49,L somatomotor 18,L,SMN,7Networks_LH_SomMot_18,-8,-15,47,Cingulum Mid L,74.8,2531
+50,L somatomotor 19,L,SMN,7Networks_LH_SomMot_19,-41,-15,48,Postcentral L,74.2,1527
+51,L somatomotor 20,L,SMN,7Networks_LH_SomMot_20,-49,-17,54,Postcentral L,92.6,1646
+52,L somatomotor 21,L,SMN,7Networks_LH_SomMot_21,-48,-29,58,Postcentral L,89.9,2774
+53,L somatomotor 22,L,SMN,7Networks_LH_SomMot_22,-39,-25,53,Postcentral L,97.8,983
+54,L somatomotor 23,L,SMN,7Networks_LH_SomMot_23,-9,-38,54,Cingulum Mid L,63.6,1095
+55,L somatomotor 24,L,SMN,7Networks_LH_SomMot_24,-4,-25,56,Paracentral Lobule L,74.1,1694
+56,L somatomotor 25,L,SMN,7Networks_LH_SomMot_25,-4,-9,59,Supp Motor Area L,96.8,2019
+57,L somatomotor 26,L,SMN,7Networks_LH_SomMot_26,-35,-18,64,Precentral L,95.1,3730
+58,L somatomotor 27,L,SMN,7Networks_LH_SomMot_27,-30,-46,63,Parietal Sup L,73.5,2757
+59,L somatomotor 28,L,SMN,7Networks_LH_SomMot_28,-32,-29,62,Postcentral L,74.9,2131
+60,L somatomotor 29,L,SMN,7Networks_LH_SomMot_29,-30,-38,65,Postcentral L,90.5,2245
+61,L somatomotor 30,L,SMN,7Networks_LH_SomMot_30,-24,-11,65,Precentral L,69.9,2919
+62,L somatomotor 31,L,SMN,7Networks_LH_SomMot_31,-19,-24,67,Precentral L,57.6,1098
+63,L somatomotor 32,L,SMN,7Networks_LH_SomMot_32,-9,-42,70,Precuneus L,80.1,2162
+64,L somatomotor 33,L,SMN,7Networks_LH_SomMot_33,-4,-26,69,Paracentral Lobule L,85.5,2717
+65,L somatomotor 34,L,SMN,7Networks_LH_SomMot_34,-14,-11,72,Supp Motor Area L,32.2,1836
+66,L somatomotor 35,L,SMN,7Networks_LH_SomMot_35,-18,-31,69,Postcentral L,58.7,2186
+67,L somatomotor 36,L,SMN,7Networks_LH_SomMot_36,-19,-40,72,Postcentral L,54.9,2064
+68,L somatomotor 37,L,SMN,7Networks_LH_SomMot_37,-12,-27,73,Paracentral Lobule L,99.6,900
+69,"L dorsal attention, Post 1",L,DAN,7Networks_LH_DorsAttn_Post_1,-45,-42,-21,Temporal Inf L,59.3,2928
+70,"L dorsal attention, Post 2",L,DAN,7Networks_LH_DorsAttn_Post_2,-49,-56,-15,Temporal Inf L,59.6,4725
+71,"L dorsal attention, Post 3",L,DAN,7Networks_LH_DorsAttn_Post_3,-55,-62,-1,Temporal Mid L,64.0,4434
+72,"L dorsal attention, Post 4",L,DAN,7Networks_LH_DorsAttn_Post_4,-48,-65,15,Temporal Mid L,81.8,2816
+73,"L dorsal attention, Post 5",L,DAN,7Networks_LH_DorsAttn_Post_5,-26,-70,31,Occipital Mid L,60.4,1339
+74,"L dorsal attention, Post 6",L,DAN,7Networks_LH_DorsAttn_Post_6,-55,-31,45,Parietal Inf L,80.6,2465
+75,"L dorsal attention, Post 7",L,DAN,7Networks_LH_DorsAttn_Post_7,-23,-66,46,Parietal Sup L,77.6,2058
+76,"L dorsal attention, Post 8",L,DAN,7Networks_LH_DorsAttn_Post_8,-46,-29,44,Parietal Inf L,71.0,1627
+77,"L dorsal attention, Post 9",L,DAN,7Networks_LH_DorsAttn_Post_9,-33,-46,41,Parietal Inf L,89.3,2012
+78,"L dorsal attention, Post 10",L,DAN,7Networks_LH_DorsAttn_Post_10,-29,-58,50,Parietal Sup L,67.2,1261
+79,"L dorsal attention, Post 11",L,DAN,7Networks_LH_DorsAttn_Post_11,-39,-37,49,Parietal Inf L,53.7,2319
+80,"L dorsal attention, Post 12",L,DAN,7Networks_LH_DorsAttn_Post_12,-36,-52,56,Parietal Inf L,73.1,1637
+81,"L dorsal attention, Post 13",L,DAN,7Networks_LH_DorsAttn_Post_13,-15,-71,57,Precuneus L,52.6,3135
+82,"L dorsal attention, Post 14",L,DAN,7Networks_LH_DorsAttn_Post_14,-28,-61,62,Parietal Sup L,99.8,1671
+83,"L dorsal attention, Post 15",L,DAN,7Networks_LH_DorsAttn_Post_15,-8,-59,63,Precuneus L,97.4,2224
+84,"L dorsal attention, Post 16",L,DAN,7Networks_LH_DorsAttn_Post_16,-20,-57,66,Parietal Sup L,76.9,2775
+85,"L dorsal attention, Post 17",L,DAN,7Networks_LH_DorsAttn_Post_17,-13,-50,72,Precuneus L,83.8,907
+86,"L dorsal attention, FEF 1",L,DAN,7Networks_LH_DorsAttn_FEF_1,-40,-3,51,Precentral L,92.7,2506
+87,"L dorsal attention, FEF 2",L,DAN,7Networks_LH_DorsAttn_FEF_2,-26,-1,55,Frontal Mid L,47.2,2945
+88,"L dorsal attention, FEF 3",L,DAN,7Networks_LH_DorsAttn_FEF_3,-30,-8,52,Precentral L,88.3,1466
+89,"L dorsal attention, FEF 4",L,DAN,7Networks_LH_DorsAttn_FEF_4,-21,5,64,Frontal Sup L,78.9,3629
+90,"L dorsal attention, PrCv 1",L,DAN,7Networks_LH_DorsAttn_PrCv_1,-49,6,26,Precentral L,62.7,2462
+91,"L dorsal attention, PrCv 2",L,DAN,7Networks_LH_DorsAttn_PrCv_2,-50,3,38,Precentral L,97.7,2163
+92,"L salience/ventral attention, ParOper 1",L,SAL,7Networks_LH_SalVentAttn_ParOper_1,-55,-32,22,Temporal Sup L,54.3,3259
+93,"L salience/ventral attention, ParOper 2",L,SAL,7Networks_LH_SalVentAttn_ParOper_2,-58,-44,27,SupraMarginal L,68.0,2243
+94,"L salience/ventral attention, ParOper 3",L,SAL,7Networks_LH_SalVentAttn_ParOper_3,-61,-23,33,SupraMarginal L,69.1,3228
+95,"L salience/ventral attention, ParOper 4",L,SAL,7Networks_LH_SalVentAttn_ParOper_4,-61,-36,33,SupraMarginal L,81.2,2395
+96,"L salience/ventral attention, TempOcc 1",L,SAL,7Networks_LH_SalVentAttn_TempOcc_1,-56,-54,10,Temporal Mid L,99.9,2904
+97,"L salience/ventral attention, FrOperIns 1",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_1,-44,5,-16,Temporal Pole Sup L,65.7,2167
+98,"L salience/ventral attention, FrOperIns 2",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_2,-39,2,-5,Insula L,87.9,3768
+99,"L salience/ventral attention, FrOperIns 3",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_3,-33,24,-1,Insula L,70.2,1619
+100,"L salience/ventral attention, FrOperIns 4",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_4,-40,-14,-2,Insula L,55.3,1866
+101,"L salience/ventral attention, FrOperIns 5",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_5,-33,19,8,Insula L,86.8,1993
+102,"L salience/ventral attention, FrOperIns 6",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_6,-36,5,11,Insula L,90.1,1122
+103,"L salience/ventral attention, FrOperIns 7",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_7,-43,12,2,Insula L,77.1,1289
+104,"L salience/ventral attention, FrOperIns 8",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_8,-50,1,5,Rolandic Oper L,57.0,2155
+105,"L salience/ventral attention, FrOperIns 9",L,SAL,7Networks_LH_SalVentAttn_FrOperIns_9,-52,9,13,Frontal Inf Oper L,65.1,2617
+106,"L salience/ventral attention, PFCl 1",L,SAL,7Networks_LH_SalVentAttn_PFCl_1,-29,43,30,Frontal Mid L,85.5,5177
+107,"L salience/ventral attention, Med 1",L,SAL,7Networks_LH_SalVentAttn_Med_1,-6,22,31,Cingulum Ant L,56.0,3120
+108,"L salience/ventral attention, Med 2",L,SAL,7Networks_LH_SalVentAttn_Med_2,-7,1,41,Cingulum Mid L,92.3,3040
+109,"L salience/ventral attention, Med 3",L,SAL,7Networks_LH_SalVentAttn_Med_3,-11,-27,41,Cingulum Mid L,100.0,2278
+110,"L salience/ventral attention, Med 4",L,SAL,7Networks_LH_SalVentAttn_Med_4,-5,9,48,Supp Motor Area L,69.1,3132
+111,"L salience/ventral attention, Med 5",L,SAL,7Networks_LH_SalVentAttn_Med_5,-13,-41,47,Precuneus L,51.2,1361
+112,"L salience/ventral attention, Med 6",L,SAL,7Networks_LH_SalVentAttn_Med_6,-6,-49,57,Precuneus L,93.3,2074
+113,"L salience/ventral attention, Med 7",L,SAL,7Networks_LH_SalVentAttn_Med_7,-8,-3,71,Supp Motor Area L,85.7,1638
+114,"L limbic, OFC 1",L,LIM,7Networks_LH_Limbic_OFC_1,-12,24,-20,Frontal Sup Orb L,48.8,2446
+115,"L limbic, OFC 2",L,LIM,7Networks_LH_Limbic_OFC_2,-24,23,-20,Frontal Inf Orb L,69.6,4203
+116,"L limbic, OFC 3",L,LIM,7Networks_LH_Limbic_OFC_3,-11,47,-21,Frontal Sup Orb L,50.1,4903
+117,"L limbic, OFC 4",L,LIM,7Networks_LH_Limbic_OFC_4,-4,23,-19,Rectus L,71.5,3084
+118,"L limbic, OFC 5",L,LIM,7Networks_LH_Limbic_OFC_5,-15,65,-8,Frontal Sup Orb L,50.1,3691
+119,"L limbic, TempPole 1",L,LIM,7Networks_LH_Limbic_TempPole_1,-37,-5,-42,Temporal Inf L,58.8,4998
+120,"L limbic, TempPole 2",L,LIM,7Networks_LH_Limbic_TempPole_2,-25,6,-38,Temporal Pole Mid L,36.5,3186
+121,"L limbic, TempPole 3",L,LIM,7Networks_LH_Limbic_TempPole_3,-26,-9,-32,Fusiform L,63.6,2555
+122,"L limbic, TempPole 4",L,LIM,7Networks_LH_Limbic_TempPole_4,-54,-21,-32,Temporal Inf L,100.0,3644
+123,"L limbic, TempPole 5",L,LIM,7Networks_LH_Limbic_TempPole_5,-40,-22,-27,Temporal Inf L,63.2,3152
+124,"L limbic, TempPole 6",L,LIM,7Networks_LH_Limbic_TempPole_6,-43,13,-33,Temporal Pole Mid L,43.7,6058
+125,"L limbic, TempPole 7",L,LIM,7Networks_LH_Limbic_TempPole_7,-32,12,-29,Temporal Pole Sup L,51.1,3392
+126,"L limbic, TempPole 8",L,LIM,7Networks_LH_Limbic_TempPole_8,-21,-21,-26,ParaHippocampal L,63.0,1582
+127,"L control, Par 1",L,FPN,7Networks_LH_Cont_Par_1,-29,-74,42,Occipital Mid L,47.4,2154
+128,"L control, Par 2",L,FPN,7Networks_LH_Cont_Par_2,-58,-42,45,Parietal Inf L,96.7,1550
+129,"L control, Par 3",L,FPN,7Networks_LH_Cont_Par_3,-53,-50,45,Parietal Inf L,94.8,2478
+130,"L control, Par 4",L,FPN,7Networks_LH_Cont_Par_4,-34,-62,48,Parietal Inf L,49.0,2594
+131,"L control, Par 5",L,FPN,7Networks_LH_Cont_Par_5,-42,-52,49,Parietal Inf L,95.0,1256
+132,"L control, Par 6",L,FPN,7Networks_LH_Cont_Par_6,-45,-41,47,Parietal Inf L,99.6,2649
+133,"L control, Temp 1",L,FPN,7Networks_LH_Cont_Temp_1,-61,-49,-10,Temporal Mid L,50.0,3327
+134,"L control, OFC 1",L,FPN,7Networks_LH_Cont_OFC_1,-27,49,-14,Frontal Mid Orb L,73.7,2836
+135,"L control, PFCl 1",L,FPN,7Networks_LH_Cont_PFCl_1,-42,49,-6,Frontal Mid Orb L,45.7,4475
+136,"L control, PFCl 2",L,FPN,7Networks_LH_Cont_PFCl_2,-48,35,10,Frontal Inf Tri L,100.0,3065
+137,"L control, PFCl 3",L,FPN,7Networks_LH_Cont_PFCl_3,-38,49,11,Frontal Mid L,78.2,3717
+138,"L control, PFCl 4",L,FPN,7Networks_LH_Cont_PFCl_4,-28,57,13,Frontal Mid L,64.3,3238
+139,"L control, PFCl 5",L,FPN,7Networks_LH_Cont_PFCl_5,-42,38,22,Frontal Inf Tri L,52.3,4403
+140,"L control, PFCl 6",L,FPN,7Networks_LH_Cont_PFCl_6,-44,20,27,Frontal Inf Tri L,63.2,5773
+141,"L control, PFCl 7",L,FPN,7Networks_LH_Cont_PFCl_7,-39,7,34,Precentral L,66.1,1920
+142,"L control, PFCl 8",L,FPN,7Networks_LH_Cont_PFCl_8,-36,32,39,Frontal Mid L,97.8,3118
+143,"L control, PFCv 1",L,FPN,7Networks_LH_Cont_PFCv_1,-33,16,-8,Insula L,99.1,1372
+144,"L control, pCun 1",L,FPN,7Networks_LH_Cont_pCun_1,-9,-77,45,Precuneus L,49.8,2110
+145,"L control, pCun 2",L,FPN,7Networks_LH_Cont_pCun_2,-5,-64,52,Precuneus L,99.1,2037
+146,"L control, Cing 1",L,FPN,7Networks_LH_Cont_Cing_1,-3,6,29,Cingulum Ant L,66.2,1143
+147,"L control, Cing 2",L,FPN,7Networks_LH_Cont_Cing_2,-4,-22,29,Cingulum Mid R,63.8,1000
+148,"L control, PFCmp 1",L,FPN,7Networks_LH_Cont_PFCmp_1,-4,28,47,Frontal Sup Medial L,64.9,3665
+149,"L default, Temp 1",L,DMN,7Networks_LH_Default_Temp_1,-54,-2,-29,Temporal Inf L,56.4,4224
+150,"L default, Temp 2",L,DMN,7Networks_LH_Default_Temp_2,-62,-18,-21,Temporal Mid L,52.6,3593
+151,"L default, Temp 3",L,DMN,7Networks_LH_Default_Temp_3,-60,-36,-18,Temporal Inf L,73.1,4399
+152,"L default, Temp 4",L,DMN,7Networks_LH_Default_Temp_4,-57,-9,-14,Temporal Mid L,93.4,4126
+153,"L default, Temp 5",L,DMN,7Networks_LH_Default_Temp_5,-53,6,-12,Temporal Pole Sup L,45.1,3453
+154,"L default, Temp 6",L,DMN,7Networks_LH_Default_Temp_6,-61,-35,-3,Temporal Mid L,100.0,4103
+155,"L default, Temp 7",L,DMN,7Networks_LH_Default_Temp_7,-52,-23,-5,Temporal Mid L,94.9,1869
+156,"L default, Temp 8",L,DMN,7Networks_LH_Default_Temp_8,-61,-13,-3,Temporal Mid L,73.4,1898
+157,"L default, Temp 9",L,DMN,7Networks_LH_Default_Temp_9,-62,-32,5,Temporal Mid L,92.8,2637
+158,"L default, Temp 10",L,DMN,7Networks_LH_Default_Temp_10,-52,-43,5,Temporal Mid L,99.9,1869
+159,"L default, Par 1",L,DMN,7Networks_LH_Default_Par_1,-59,-49,16,Temporal Mid L,70.8,2029
+160,"L default, Par 2",L,DMN,7Networks_LH_Default_Par_2,-46,-59,21,Temporal Mid L,76.8,2312
+161,"L default, Par 3",L,DMN,7Networks_LH_Default_Par_3,-40,-78,30,Occipital Mid L,92.5,3700
+162,"L default, Par 4",L,DMN,7Networks_LH_Default_Par_4,-47,-63,31,Angular L,91.1,3710
+163,"L default, Par 5",L,DMN,7Networks_LH_Default_Par_5,-57,-55,30,Angular L,53.3,3037
+164,"L default, Par 6",L,DMN,7Networks_LH_Default_Par_6,-41,-72,43,Angular L,55.7,3557
+165,"L default, Par 7",L,DMN,7Networks_LH_Default_Par_7,-49,-60,47,Angular L,50.1,2409
+166,"L default, PFC 1",L,DMN,7Networks_LH_Default_PFC_1,-36,22,-15,Frontal Inf Orb L,57.4,3355
+167,"L default, PFC 2",L,DMN,7Networks_LH_Default_PFC_2,-36,37,-13,Frontal Inf Orb L,85.8,1808
+168,"L default, PFC 3",L,DMN,7Networks_LH_Default_PFC_3,-5,55,-10,Frontal Med Orb L,66.3,2835
+169,"L default, PFC 4",L,DMN,7Networks_LH_Default_PFC_4,-6,35,-9,Frontal Med Orb L,40.1,3676
+170,"L default, PFC 5",L,DMN,7Networks_LH_Default_PFC_5,-46,32,-10,Frontal Inf Orb L,95.2,2553
+171,"L default, PFC 6",L,DMN,7Networks_LH_Default_PFC_6,-28,58,-1,Frontal Sup Orb L,39.2,2539
+172,"L default, PFC 7",L,DMN,7Networks_LH_Default_PFC_7,-48,28,1,Frontal Inf Tri L,62.9,3115
+173,"L default, PFC 8",L,DMN,7Networks_LH_Default_PFC_8,-6,59,7,Frontal Sup Medial L,88.0,1999
+174,"L default, PFC 9",L,DMN,7Networks_LH_Default_PFC_9,-6,45,6,Cingulum Ant L,88.6,4263
+175,"L default, PFC 10",L,DMN,7Networks_LH_Default_PFC_10,-53,19,11,Frontal Inf Tri L,57.4,4058
+176,"L default, PFC 11",L,DMN,7Networks_LH_Default_PFC_11,-16,67,9,Frontal Sup L,62.0,2678
+177,"L default, PFC 12",L,DMN,7Networks_LH_Default_PFC_12,-5,34,21,Cingulum Ant L,88.3,3642
+178,"L default, PFC 13",L,DMN,7Networks_LH_Default_PFC_13,-4,51,28,Frontal Sup Medial L,93.7,6330
+179,"L default, PFC 14",L,DMN,7Networks_LH_Default_PFC_14,-14,57,31,Frontal Sup L,70.4,3765
+180,"L default, PFC 15",L,DMN,7Networks_LH_Default_PFC_15,-22,50,31,Frontal Sup L,73.3,3346
+181,"L default, PFC 16",L,DMN,7Networks_LH_Default_PFC_16,-25,28,44,Frontal Mid L,75.6,2194
+182,"L default, PFC 17",L,DMN,7Networks_LH_Default_PFC_17,-41,19,48,Frontal Mid L,93.0,4307
+183,"L default, PFC 18",L,DMN,7Networks_LH_Default_PFC_18,-8,43,51,Frontal Sup Medial L,79.3,1905
+184,"L default, PFC 19",L,DMN,7Networks_LH_Default_PFC_19,-18,36,48,Frontal Sup L,89.3,2128
+185,"L default, PFC 20",L,DMN,7Networks_LH_Default_PFC_20,-42,7,49,Precentral L,71.1,3289
+186,"L default, PFC 21",L,DMN,7Networks_LH_Default_PFC_21,-30,14,57,Frontal Mid L,96.3,2234
+187,"L default, PFC 22",L,DMN,7Networks_LH_Default_PFC_22,-22,20,52,Frontal Mid L,51.8,2003
+188,"L default, PFC 23",L,DMN,7Networks_LH_Default_PFC_23,-12,24,61,Frontal Sup L,48.6,3089
+189,"L default, PFC 24",L,DMN,7Networks_LH_Default_PFC_24,-6,10,65,Supp Motor Area L,93.1,3270
+190,"L default, pCunPCC 1",L,DMN,7Networks_LH_Default_pCunPCC_1,-8,-52,9,Calcarine L,50.7,1375
+191,"L default, pCunPCC 2",L,DMN,7Networks_LH_Default_pCunPCC_2,-13,-61,19,Calcarine L,47.5,2153
+192,"L default, pCunPCC 3",L,DMN,7Networks_LH_Default_pCunPCC_3,-4,-53,20,Precuneus L,68.1,1691
+193,"L default, pCunPCC 4",L,DMN,7Networks_LH_Default_pCunPCC_4,-6,-41,23,Cingulum Post L,92.2,679
+194,"L default, pCunPCC 5",L,DMN,7Networks_LH_Default_pCunPCC_5,-10,-70,31,Cuneus L,60.0,2054
+195,"L default, pCunPCC 6",L,DMN,7Networks_LH_Default_pCunPCC_6,-5,-60,30,Precuneus L,72.4,2807
+196,"L default, pCunPCC 7",L,DMN,7Networks_LH_Default_pCunPCC_7,-7,-44,32,Cingulum Post L,63.3,2021
+197,"L default, pCunPCC 8",L,DMN,7Networks_LH_Default_pCunPCC_8,-4,-34,38,Cingulum Mid L,80.0,1792
+198,"L default, pCunPCC 9",L,DMN,7Networks_LH_Default_pCunPCC_9,-3,-15,37,Cingulum Mid L,94.7,1539
+199,"L default, pCunPCC 10",L,DMN,7Networks_LH_Default_pCunPCC_10,-3,-68,41,Precuneus L,92.4,1190
+200,"L default, pCunPCC 11",L,DMN,7Networks_LH_Default_pCunPCC_11,-7,-51,43,Precuneus L,85.9,3095
+201,R visual 1,R,VIS,7Networks_RH_Vis_1,34,-37,-23,Fusiform R,70.2,2934
+202,R visual 2,R,VIS,7Networks_RH_Vis_2,31,-31,-18,Fusiform R,65.0,2806
+203,R visual 3,R,VIS,7Networks_RH_Vis_3,35,-54,-17,Fusiform R,81.2,2725
+204,R visual 4,R,VIS,7Networks_RH_Vis_4,37,-73,-15,Fusiform R,43.2,3045
+205,R visual 5,R,VIS,7Networks_RH_Vis_5,26,-52,-9,Fusiform R,63.3,3603
+206,R visual 6,R,VIS,7Networks_RH_Vis_6,23,-74,-11,Fusiform R,49.7,4391
+207,R visual 7,R,VIS,7Networks_RH_Vis_7,18,-36,-12,ParaHippocampal R,37.0,1078
+208,R visual 8,R,VIS,7Networks_RH_Vis_8,20,-88,-13,Lingual R,71.4,2207
+209,R visual 9,R,VIS,7Networks_RH_Vis_9,50,-64,-9,Temporal Inf R,75.0,4487
+210,R visual 10,R,VIS,7Networks_RH_Vis_10,42,-84,-12,Occipital Inf R,90.9,2148
+211,R visual 11,R,VIS,7Networks_RH_Vis_11,9,-72,-5,Lingual R,93.7,2630
+212,R visual 12,R,VIS,7Networks_RH_Vis_12,13,-57,-3,Lingual R,88.0,2769
+213,R visual 13,R,VIS,7Networks_RH_Vis_13,25,-96,-10,Occipital Inf R,53.9,3450
+214,R visual 14,R,VIS,7Networks_RH_Vis_14,18,-45,-3,Lingual R,73.2,1730
+215,R visual 15,R,VIS,7Networks_RH_Vis_15,8,-92,-2,Calcarine R,48.9,5861
+216,R visual 16,R,VIS,7Networks_RH_Vis_16,49,-66,4,Temporal Mid R,80.5,5082
+217,R visual 17,R,VIS,7Networks_RH_Vis_17,14,-47,4,Lingual R,67.4,973
+218,R visual 18,R,VIS,7Networks_RH_Vis_18,35,-89,2,Occipital Mid R,59.4,3054
+219,R visual 19,R,VIS,7Networks_RH_Vis_19,9,-73,8,Calcarine R,75.0,5048
+220,R visual 20,R,VIS,7Networks_RH_Vis_20,22,-59,6,Calcarine R,61.6,2544
+221,R visual 21,R,VIS,7Networks_RH_Vis_21,24,-99,7,Occipital Mid R,36.7,2453
+222,R visual 22,R,VIS,7Networks_RH_Vis_22,44,-79,10,Occipital Mid R,80.0,4590
+223,R visual 23,R,VIS,7Networks_RH_Vis_23,13,-94,19,Cuneus R,53.6,3764
+224,R visual 24,R,VIS,7Networks_RH_Vis_24,16,-66,19,Calcarine R,59.1,2637
+225,R visual 25,R,VIS,7Networks_RH_Vis_25,5,-80,23,Cuneus R,64.6,2466
+226,R visual 26,R,VIS,7Networks_RH_Vis_26,27,-87,21,Occipital Mid R,52.3,3733
+227,R visual 27,R,VIS,7Networks_RH_Vis_27,36,-79,24,Occipital Mid R,99.1,2401
+228,R visual 28,R,VIS,7Networks_RH_Vis_28,14,-77,34,Cuneus R,75.7,2826
+229,R visual 29,R,VIS,7Networks_RH_Vis_29,16,-87,37,Occipital Sup R,50.4,3410
+230,R visual 30,R,VIS,7Networks_RH_Vis_30,29,-78,37,Occipital Sup R,51.3,2551
+231,R somatomotor 1,R,SMN,7Networks_RH_SomMot_1,53,2,-6,Temporal Sup R,52.8,3905
+232,R somatomotor 2,R,SMN,7Networks_RH_SomMot_2,62,-19,0,Temporal Sup R,89.3,3220
+233,R somatomotor 3,R,SMN,7Networks_RH_SomMot_3,53,-14,6,Temporal Sup R,74.8,3460
+234,R somatomotor 4,R,SMN,7Networks_RH_SomMot_4,40,-19,5,Insula R,43.6,1224
+235,R somatomotor 5,R,SMN,7Networks_RH_SomMot_5,38,-8,14,Insula R,72.7,967
+236,R somatomotor 6,R,SMN,7Networks_RH_SomMot_6,35,-21,14,Insula R,61.4,832
+237,R somatomotor 7,R,SMN,7Networks_RH_SomMot_7,60,-24,11,Temporal Sup R,99.7,2511
+238,R somatomotor 8,R,SMN,7Networks_RH_SomMot_8,64,-34,11,Temporal Sup R,76.1,2017
+239,R somatomotor 9,R,SMN,7Networks_RH_SomMot_9,41,-13,18,Rolandic Oper R,70.6,858
+240,R somatomotor 10,R,SMN,7Networks_RH_SomMot_10,41,-29,18,Temporal Sup R,46.6,1987
+241,R somatomotor 11,R,SMN,7Networks_RH_SomMot_11,50,-10,13,Rolandic Oper R,76.1,1161
+242,R somatomotor 12,R,SMN,7Networks_RH_SomMot_12,59,1,10,Rolandic Oper R,74.5,2054
+243,R somatomotor 13,R,SMN,7Networks_RH_SomMot_13,49,-21,19,Rolandic Oper R,76.9,1355
+244,R somatomotor 14,R,SMN,7Networks_RH_SomMot_14,62,-12,16,Rolandic Oper R,43.1,1396
+245,R somatomotor 15,R,SMN,7Networks_RH_SomMot_15,61,6,30,Precentral R,82.5,1257
+246,R somatomotor 16,R,SMN,7Networks_RH_SomMot_16,59,-5,27,Postcentral R,88.3,3751
+247,R somatomotor 17,R,SMN,7Networks_RH_SomMot_17,61,-14,30,Postcentral R,64.4,1974
+248,R somatomotor 18,R,SMN,7Networks_RH_SomMot_18,52,-6,38,Postcentral R,57.5,2033
+249,R somatomotor 19,R,SMN,7Networks_RH_SomMot_19,55,-17,40,Postcentral R,97.4,1090
+250,R somatomotor 20,R,SMN,7Networks_RH_SomMot_20,11,-17,41,Cingulum Mid R,99.6,1375
+251,R somatomotor 21,R,SMN,7Networks_RH_SomMot_21,52,-13,49,Precentral R,57.0,1435
+252,R somatomotor 22,R,SMN,7Networks_RH_SomMot_22,44,-11,48,Precentral R,89.4,1822
+253,R somatomotor 23,R,SMN,7Networks_RH_SomMot_23,49,-25,56,Postcentral R,99.0,2608
+254,R somatomotor 24,R,SMN,7Networks_RH_SomMot_24,7,-10,51,Supp Motor Area R,61.1,3085
+255,R somatomotor 25,R,SMN,7Networks_RH_SomMot_25,42,-21,54,Postcentral R,73.9,1491
+256,R somatomotor 26,R,SMN,7Networks_RH_SomMot_26,36,-18,63,Precentral R,95.6,3115
+257,R somatomotor 27,R,SMN,7Networks_RH_SomMot_27,32,-34,63,Postcentral R,100.0,1377
+258,R somatomotor 28,R,SMN,7Networks_RH_SomMot_28,31,-41,64,Postcentral R,94.7,1917
+259,R somatomotor 29,R,SMN,7Networks_RH_SomMot_29,34,-27,61,Postcentral R,78.4,1577
+260,R somatomotor 30,R,SMN,7Networks_RH_SomMot_30,4,-25,58,Supp Motor Area R,51.7,2239
+261,R somatomotor 31,R,SMN,7Networks_RH_SomMot_31,29,-11,65,Precentral R,51.8,2031
+262,R somatomotor 32,R,SMN,7Networks_RH_SomMot_32,9,-40,68,Paracentral Lobule R,45.8,2054
+263,R somatomotor 33,R,SMN,7Networks_RH_SomMot_33,21,-24,66,Precentral R,94.7,999
+264,R somatomotor 34,R,SMN,7Networks_RH_SomMot_34,22,-29,68,Precentral R,61.9,1062
+265,R somatomotor 35,R,SMN,7Networks_RH_SomMot_35,22,-35,70,Postcentral R,95.9,1246
+266,R somatomotor 36,R,SMN,7Networks_RH_SomMot_36,17,-6,69,Frontal Sup R,67.8,1796
+267,R somatomotor 37,R,SMN,7Networks_RH_SomMot_37,16,-47,74,Postcentral R,49.8,1955
+268,R somatomotor 38,R,SMN,7Networks_RH_SomMot_38,5,-22,72,Paracentral Lobule R,54.8,2136
+269,R somatomotor 39,R,SMN,7Networks_RH_SomMot_39,16,-19,73,Precentral R,54.8,2202
+270,R somatomotor 40,R,SMN,7Networks_RH_SomMot_40,13,-33,76,Postcentral R,58.6,1156
+271,"R dorsal attention, Post 1",R,DAN,7Networks_RH_DorsAttn_Post_1,50,-49,-18,Temporal Inf R,84.3,5818
+272,"R dorsal attention, Post 2",R,DAN,7Networks_RH_DorsAttn_Post_2,59,-55,-2,Temporal Mid R,58.1,2743
+273,"R dorsal attention, Post 3",R,DAN,7Networks_RH_DorsAttn_Post_3,54,-56,12,Temporal Mid R,100.0,2663
+274,"R dorsal attention, Post 4",R,DAN,7Networks_RH_DorsAttn_Post_4,45,-75,31,Occipital Mid R,62.5,3382
+275,"R dorsal attention, Post 5",R,DAN,7Networks_RH_DorsAttn_Post_5,32,-67,35,Occipital Mid R,63.1,2181
+276,"R dorsal attention, Post 6",R,DAN,7Networks_RH_DorsAttn_Post_6,57,-23,44,SupraMarginal R,55.0,1327
+277,"R dorsal attention, Post 7",R,DAN,7Networks_RH_DorsAttn_Post_7,19,-79,50,Parietal Sup R,59.8,1054
+278,"R dorsal attention, Post 8",R,DAN,7Networks_RH_DorsAttn_Post_8,44,-38,50,Parietal Inf R,53.7,1789
+279,"R dorsal attention, Post 9",R,DAN,7Networks_RH_DorsAttn_Post_9,45,-28,43,Postcentral R,53.1,1699
+280,"R dorsal attention, Post 10",R,DAN,7Networks_RH_DorsAttn_Post_10,31,-64,53,Parietal Sup R,61.7,1716
+281,"R dorsal attention, Post 11",R,DAN,7Networks_RH_DorsAttn_Post_11,36,-45,45,Parietal Inf R,81.1,2379
+282,"R dorsal attention, Post 12",R,DAN,7Networks_RH_DorsAttn_Post_12,21,-69,53,Parietal Sup R,76.3,2962
+283,"R dorsal attention, Post 13",R,DAN,7Networks_RH_DorsAttn_Post_13,36,-36,51,Postcentral R,61.2,1757
+284,"R dorsal attention, Post 14",R,DAN,7Networks_RH_DorsAttn_Post_14,34,-51,54,Parietal Sup R,45.5,3113
+285,"R dorsal attention, Post 15",R,DAN,7Networks_RH_DorsAttn_Post_15,8,-71,53,Precuneus R,83.7,2235
+286,"R dorsal attention, Post 16",R,DAN,7Networks_RH_DorsAttn_Post_16,27,-58,61,Parietal Sup R,95.1,3204
+287,"R dorsal attention, Post 17",R,DAN,7Networks_RH_DorsAttn_Post_17,7,-54,60,Precuneus R,93.3,4108
+288,"R dorsal attention, Post 18",R,DAN,7Networks_RH_DorsAttn_Post_18,14,-64,65,Parietal Sup R,59.9,2070
+289,"R dorsal attention, Post 19",R,DAN,7Networks_RH_DorsAttn_Post_19,24,-50,68,Parietal Sup R,75.0,2890
+290,"R dorsal attention, FEF 1",R,DAN,7Networks_RH_DorsAttn_FEF_1,39,-3,53,Precentral R,58.8,2588
+291,"R dorsal attention, FEF 2",R,DAN,7Networks_RH_DorsAttn_FEF_2,27,-3,52,Precentral R,36.3,2385
+292,"R dorsal attention, FEF 3",R,DAN,7Networks_RH_DorsAttn_FEF_3,25,-3,64,Frontal Sup R,99.1,1273
+293,"R dorsal attention, PrCv 1",R,DAN,7Networks_RH_DorsAttn_PrCv_1,49,8,25,Frontal Inf Oper R,54.9,3134
+294,"R salience/ventral attention, TempOccPar 1",R,SAL,7Networks_RH_SalVentAttn_TempOccPar_1,59,-46,7,Temporal Mid R,99.6,2037
+295,"R salience/ventral attention, TempOccPar 2",R,SAL,7Networks_RH_SalVentAttn_TempOccPar_2,52,-41,12,Temporal Sup R,59.9,1460
+296,"R salience/ventral attention, TempOccPar 3",R,SAL,7Networks_RH_SalVentAttn_TempOccPar_3,61,-40,22,Temporal Sup R,75.8,1438
+297,"R salience/ventral attention, TempOccPar 4",R,SAL,7Networks_RH_SalVentAttn_TempOccPar_4,58,-31,24,SupraMarginal R,50.7,2755
+298,"R salience/ventral attention, TempOccPar 5",R,SAL,7Networks_RH_SalVentAttn_TempOccPar_5,60,-22,23,SupraMarginal R,67.4,2411
+299,"R salience/ventral attention, TempOccPar 6",R,SAL,7Networks_RH_SalVentAttn_TempOccPar_6,63,-26,38,SupraMarginal R,98.6,2410
+300,"R salience/ventral attention, TempOccPar 7",R,SAL,7Networks_RH_SalVentAttn_TempOccPar_7,62,-37,37,SupraMarginal R,95.3,2719
+301,"R salience/ventral attention, PrC 1",R,SAL,7Networks_RH_SalVentAttn_PrC_1,51,3,41,Precentral R,99.6,2561
+302,"R salience/ventral attention, FrOperIns 1",R,SAL,7Networks_RH_SalVentAttn_FrOperIns_1,40,5,-15,Temporal Pole Sup R,44.0,2269
+303,"R salience/ventral attention, FrOperIns 2",R,SAL,7Networks_RH_SalVentAttn_FrOperIns_2,41,8,-3,Insula R,99.3,2104
+304,"R salience/ventral attention, FrOperIns 3",R,SAL,7Networks_RH_SalVentAttn_FrOperIns_3,40,-10,-4,Insula R,72.4,2053
+305,"R salience/ventral attention, FrOperIns 4",R,SAL,7Networks_RH_SalVentAttn_FrOperIns_4,39,-1,6,Insula R,95.0,1384
+306,"R salience/ventral attention, FrOperIns 5",R,SAL,7Networks_RH_SalVentAttn_FrOperIns_5,37,23,5,Insula R,61.5,3487
+307,"R salience/ventral attention, FrOperIns 6",R,SAL,7Networks_RH_SalVentAttn_FrOperIns_6,38,7,11,Insula R,71.8,1230
+308,"R salience/ventral attention, FrOperIns 7",R,SAL,7Networks_RH_SalVentAttn_FrOperIns_7,49,5,4,Rolandic Oper R,44.0,2449
+309,"R salience/ventral attention, FrOperIns 8",R,SAL,7Networks_RH_SalVentAttn_FrOperIns_8,54,12,12,Frontal Inf Oper R,71.2,2565
+310,"R salience/ventral attention, PFCl 1",R,SAL,7Networks_RH_SalVentAttn_PFCl_1,33,45,28,Frontal Mid R,94.8,5188
+311,"R salience/ventral attention, Med 1",R,SAL,7Networks_RH_SalVentAttn_Med_1,7,19,35,Cingulum Mid R,67.1,4518
+312,"R salience/ventral attention, Med 2",R,SAL,7Networks_RH_SalVentAttn_Med_2,7,2,43,Cingulum Mid R,74.5,3572
+313,"R salience/ventral attention, Med 3",R,SAL,7Networks_RH_SalVentAttn_Med_3,11,-34,43,Cingulum Mid R,79.3,1971
+314,"R salience/ventral attention, Med 4",R,SAL,7Networks_RH_SalVentAttn_Med_4,6,11,57,Supp Motor Area R,98.4,1775
+315,"R salience/ventral attention, Med 5",R,SAL,7Networks_RH_SalVentAttn_Med_5,10,-43,53,Precuneus R,80.6,1357
+316,"R salience/ventral attention, Med 6",R,SAL,7Networks_RH_SalVentAttn_Med_6,11,-32,50,Cingulum Mid R,47.4,1497
+317,"R salience/ventral attention, Med 7",R,SAL,7Networks_RH_SalVentAttn_Med_7,7,-2,66,Supp Motor Area R,98.1,2485
+318,"R salience/ventral attention, Med 8",R,SAL,7Networks_RH_SalVentAttn_Med_8,16,7,69,Frontal Sup R,54.0,1314
+319,"R limbic, OFC 1",R,LIM,7Networks_RH_Limbic_OFC_1,13,24,-20,Frontal Sup Orb R,43.1,2539
+320,"R limbic, OFC 2",R,LIM,7Networks_RH_Limbic_OFC_2,23,22,-20,Frontal Inf Orb R,61.2,2823
+321,"R limbic, OFC 3",R,LIM,7Networks_RH_Limbic_OFC_3,8,47,-23,Rectus R,57.0,2986
+322,"R limbic, OFC 4",R,LIM,7Networks_RH_Limbic_OFC_4,20,43,-18,Frontal Sup Orb R,57.0,1845
+323,"R limbic, OFC 5",R,LIM,7Networks_RH_Limbic_OFC_5,5,22,-21,Rectus R,66.4,2482
+324,"R limbic, OFC 6",R,LIM,7Networks_RH_Limbic_OFC_6,9,63,-14,Frontal Med Orb R,40.4,2598
+325,"R limbic, TempPole 1",R,LIM,7Networks_RH_Limbic_TempPole_1,28,-1,-40,Fusiform R,63.2,5576
+326,"R limbic, TempPole 2",R,LIM,7Networks_RH_Limbic_TempPole_2,49,-6,-39,Temporal Inf R,99.5,4643
+327,"R limbic, TempPole 3",R,LIM,7Networks_RH_Limbic_TempPole_3,36,16,-37,Temporal Pole Mid R,66.8,3160
+328,"R limbic, TempPole 4",R,LIM,7Networks_RH_Limbic_TempPole_4,39,-15,-31,Fusiform R,69.1,3766
+329,"R limbic, TempPole 5",R,LIM,7Networks_RH_Limbic_TempPole_5,29,12,-30,Temporal Pole Sup R,38.0,3732
+330,"R limbic, TempPole 6",R,LIM,7Networks_RH_Limbic_TempPole_6,50,-27,-26,Temporal Inf R,76.5,3450
+331,"R limbic, TempPole 7",R,LIM,7Networks_RH_Limbic_TempPole_7,22,-18,-27,ParaHippocampal R,72.2,2312
+332,"R control, Par 1",R,FPN,7Networks_RH_Cont_Par_1,54,-53,44,Parietal Inf R,68.6,3468
+333,"R control, Par 2",R,FPN,7Networks_RH_Cont_Par_2,56,-41,48,Parietal Inf R,53.1,2052
+334,"R control, Par 3",R,FPN,7Networks_RH_Cont_Par_3,35,-71,47,Angular R,49.2,2177
+335,"R control, Par 4",R,FPN,7Networks_RH_Cont_Par_4,54,-33,51,Parietal Inf R,54.7,1395
+336,"R control, Par 5",R,FPN,7Networks_RH_Cont_Par_5,47,-44,47,Parietal Inf R,74.6,1255
+337,"R control, Par 6",R,FPN,7Networks_RH_Cont_Par_6,41,-55,48,Parietal Inf R,53.5,2835
+338,"R control, Temp 1",R,FPN,7Networks_RH_Cont_Temp_1,62,-29,-20,Temporal Inf R,79.6,4452
+339,"R control, Temp 2",R,FPN,7Networks_RH_Cont_Temp_2,63,-42,-11,Temporal Inf R,53.0,3673
+340,"R control, PFCv 1",R,FPN,7Networks_RH_Cont_PFCv_1,34,21,-8,Insula R,69.0,1673
+341,"R control, PFCl 1",R,FPN,7Networks_RH_Cont_PFCl_1,28,55,-13,Frontal Mid Orb R,87.3,3324
+342,"R control, PFCl 2",R,FPN,7Networks_RH_Cont_PFCl_2,42,51,-6,Frontal Mid Orb R,52.6,4081
+343,"R control, PFCl 3",R,FPN,7Networks_RH_Cont_PFCl_3,27,59,3,Frontal Sup R,32.4,7218
+344,"R control, PFCl 4",R,FPN,7Networks_RH_Cont_PFCl_4,49,40,5,Frontal Inf Tri R,82.6,2277
+345,"R control, PFCl 5",R,FPN,7Networks_RH_Cont_PFCl_5,42,46,14,Frontal Mid R,89.6,5134
+346,"R control, PFCl 6",R,FPN,7Networks_RH_Cont_PFCl_6,49,30,18,Frontal Inf Tri R,95.4,2325
+347,"R control, PFCl 7",R,FPN,7Networks_RH_Cont_PFCl_7,48,18,24,Frontal Inf Tri R,58.6,2242
+348,"R control, PFCl 8",R,FPN,7Networks_RH_Cont_PFCl_8,25,54,25,Frontal Mid R,62.0,3258
+349,"R control, PFCl 9",R,FPN,7Networks_RH_Cont_PFCl_9,47,29,28,Frontal Inf Tri R,58.4,3209
+350,"R control, PFCl 10",R,FPN,7Networks_RH_Cont_PFCl_10,39,11,34,Frontal Inf Oper R,53.7,2750
+351,"R control, PFCl 11",R,FPN,7Networks_RH_Cont_PFCl_11,39,33,38,Frontal Mid R,98.4,3010
+352,"R control, PFCl 12",R,FPN,7Networks_RH_Cont_PFCl_12,45,19,43,Frontal Mid R,76.9,4138
+353,"R control, PFCl 13",R,FPN,7Networks_RH_Cont_PFCl_13,43,6,50,Frontal Mid R,52.1,2309
+354,"R control, PFCl 14",R,FPN,7Networks_RH_Cont_PFCl_14,34,16,55,Frontal Mid R,95.6,4195
+355,"R control, PFCl 15",R,FPN,7Networks_RH_Cont_PFCl_15,24,10,58,Frontal Sup R,71.2,3527
+356,"R control, pCun 1",R,FPN,7Networks_RH_Cont_pCun_1,13,-72,39,Cuneus R,50.1,2471
+357,"R control, pCun 2",R,FPN,7Networks_RH_Cont_pCun_2,5,-64,44,Precuneus R,93.0,1704
+358,"R control, Cing 1",R,FPN,7Networks_RH_Cont_Cing_1,6,-25,28,Cingulum Mid R,60.5,1170
+359,"R control, Cing 2",R,FPN,7Networks_RH_Cont_Cing_2,5,1,30,Cingulum Mid R,76.6,947
+360,"R control, PFCmp 1",R,FPN,7Networks_RH_Cont_PFCmp_1,8,35,25,Cingulum Ant R,75.0,3487
+361,"R control, PFCmp 2",R,FPN,7Networks_RH_Cont_PFCmp_2,5,28,48,Frontal Sup Medial R,53.6,2635
+362,"R default, Par 1",R,DMN,7Networks_RH_Default_Par_1,55,-46,19,Temporal Sup R,55.6,1570
+363,"R default, Par 2",R,DMN,7Networks_RH_Default_Par_2,48,-64,22,Temporal Mid R,67.2,3763
+364,"R default, Par 3",R,DMN,7Networks_RH_Default_Par_3,53,-53,26,Angular R,59.6,3743
+365,"R default, Par 4",R,DMN,7Networks_RH_Default_Par_4,56,-45,32,SupraMarginal R,68.0,1851
+366,"R default, Par 5",R,DMN,7Networks_RH_Default_Par_5,47,-64,42,Angular R,97.2,3437
+367,"R default, Temp 1",R,DMN,7Networks_RH_Default_Temp_1,49,9,-33,Temporal Pole Mid R,47.5,4435
+368,"R default, Temp 2",R,DMN,7Networks_RH_Default_Temp_2,60,-8,-23,Temporal Mid R,60.5,4737
+369,"R default, Temp 3",R,DMN,7Networks_RH_Default_Temp_3,47,16,-20,Temporal Pole Sup R,79.7,3093
+370,"R default, Temp 4",R,DMN,7Networks_RH_Default_Temp_4,55,-4,-14,Temporal Mid R,60.7,4734
+371,"R default, Temp 5",R,DMN,7Networks_RH_Default_Temp_5,63,-23,-7,Temporal Mid R,98.7,2674
+372,"R default, Temp 6",R,DMN,7Networks_RH_Default_Temp_6,49,-20,-7,Temporal Mid R,58.3,1215
+373,"R default, Temp 7",R,DMN,7Networks_RH_Default_Temp_7,63,-38,0,Temporal Mid R,100.0,1539
+374,"R default, Temp 8",R,DMN,7Networks_RH_Default_Temp_8,51,-33,2,Temporal Mid R,67.2,2479
+375,"R default, PFCv 1",R,DMN,7Networks_RH_Default_PFCv_1,35,23,-17,Frontal Inf Orb R,62.1,2789
+376,"R default, PFCv 2",R,DMN,7Networks_RH_Default_PFCv_2,35,38,-14,Frontal Inf Orb R,77.4,2264
+377,"R default, PFCv 3",R,DMN,7Networks_RH_Default_PFCv_3,48,32,-8,Frontal Inf Orb R,81.7,3995
+378,"R default, PFCv 4",R,DMN,7Networks_RH_Default_PFCv_4,53,24,7,Frontal Inf Tri R,64.6,4172
+379,"R default, PFCdPFCm 1",R,DMN,7Networks_RH_Default_PFCdPFCm_1,5,40,-10,Frontal Med Orb R,56.8,5339
+380,"R default, PFCdPFCm 2",R,DMN,7Networks_RH_Default_PFCdPFCm_2,9,67,1,Frontal Sup Medial R,41.8,2543
+381,"R default, PFCdPFCm 3",R,DMN,7Networks_RH_Default_PFCdPFCm_3,8,42,4,Cingulum Ant R,73.1,3908
+382,"R default, PFCdPFCm 4",R,DMN,7Networks_RH_Default_PFCdPFCm_4,7,54,13,Frontal Sup Medial R,59.6,4657
+383,"R default, PFCdPFCm 5",R,DMN,7Networks_RH_Default_PFCdPFCm_5,17,65,16,Frontal Sup R,67.2,3189
+384,"R default, PFCdPFCm 6",R,DMN,7Networks_RH_Default_PFCdPFCm_6,6,25,18,Cingulum Ant R,96.1,1335
+385,"R default, PFCdPFCm 7",R,DMN,7Networks_RH_Default_PFCdPFCm_7,6,58,29,Frontal Sup Medial R,85.2,2440
+386,"R default, PFCdPFCm 8",R,DMN,7Networks_RH_Default_PFCdPFCm_8,16,53,36,Frontal Sup R,79.8,2939
+387,"R default, PFCdPFCm 9",R,DMN,7Networks_RH_Default_PFCdPFCm_9,5,44,40,Frontal Sup Medial R,73.8,2274
+388,"R default, PFCdPFCm 10",R,DMN,7Networks_RH_Default_PFCdPFCm_10,26,35,39,Frontal Mid R,68.5,3250
+389,"R default, PFCdPFCm 11",R,DMN,7Networks_RH_Default_PFCdPFCm_11,14,39,52,Frontal Sup R,55.8,3622
+390,"R default, PFCdPFCm 12",R,DMN,7Networks_RH_Default_PFCdPFCm_12,24,26,51,Frontal Sup R,70.0,3086
+391,"R default, PFCdPFCm 13",R,DMN,7Networks_RH_Default_PFCdPFCm_13,12,20,63,Supp Motor Area R,60.6,3219
+392,"R default, pCunPCC 1",R,DMN,7Networks_RH_Default_pCunPCC_1,12,-55,15,Precuneus R,44.7,3109
+393,"R default, pCunPCC 2",R,DMN,7Networks_RH_Default_pCunPCC_2,7,-44,20,Cingulum Post R,52.3,454
+394,"R default, pCunPCC 3",R,DMN,7Networks_RH_Default_pCunPCC_3,16,-63,27,Precuneus R,60.4,1290
+395,"R default, pCunPCC 4",R,DMN,7Networks_RH_Default_pCunPCC_4,6,-52,23,Precuneus R,70.7,2152
+396,"R default, pCunPCC 5",R,DMN,7Networks_RH_Default_pCunPCC_5,5,-63,31,Precuneus R,79.2,1397
+397,"R default, pCunPCC 6",R,DMN,7Networks_RH_Default_pCunPCC_6,7,-38,35,Cingulum Mid R,71.4,2835
+398,"R default, pCunPCC 7",R,DMN,7Networks_RH_Default_pCunPCC_7,4,-20,37,Cingulum Mid R,97.6,2047
+399,"R default, pCunPCC 8",R,DMN,7Networks_RH_Default_pCunPCC_8,10,-53,35,Precuneus R,79.9,1402
+400,"R default, pCunPCC 9",R,DMN,7Networks_RH_Default_pCunPCC_9,7,-50,45,Precuneus R,96.0,1991
+401,L nucleus accumbens,L,SBC,,-8,12,-7,Caudate L,82.8,1138
+402,R nucleus accumbens,R,SBC,,10,12,-7,Caudate R,82.1,1157
+403,L amygdala,L,SBC,,-23,-3,-19,Amygdala L,56.9,1634
+404,R amygdala,R,SBC,,28,-1,-19,Amygdala R,68.3,1880
+405,L caudate,L,SBC,,-12,9,11,Caudate L,98.4,6344
+406,R caudate,R,SBC,,16,10,10,Caudate R,91.9,6824
+407,L hippocampus,L,SBC,,-25,-22,-12,Hippocampus L,70.6,7299
+408,R hippocampus,R,SBC,,29,-22,-12,Hippocampus R,76.9,7400
+409,L pallidum,L,SBC,,-18,-2,-2,Pallidum L,98.0,2344
+410,R pallidum,R,SBC,,21,-2,-2,Pallidum R,92.1,2240
+411,L parahippocampal gyrus,L,SBC,,-19,-12,-23,ParaHippocampal L,93.3,2762
+412,R parahippocampal gyrus,R,SBC,,24,-12,-22,ParaHippocampal R,91.4,2498
+413,L putamen,L,SBC,,-24,2,1,Putamen L,88.0,7967
+414,R putamen,R,SBC,,28,3,1,Putamen R,97.5,8270
+415,L thalamus,L,SBC,,-11,-19,6,Thalamus L,98.2,8800
+416,R thalamus,R,SBC,,13,-19,6,Thalamus R,97.7,8456

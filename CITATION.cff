@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the software version used."
+title: "Neural Signatures of Lysergic Acid Diethylamide–Induced Subjective Experience Identified via Connectome-Based Predictive Modeling: analysis code"
+type: software
+version: 2.0.0
+abstract: >-
+  Analysis and visualization code accompanying the revised manuscript.
+  The original CPM pipeline was developed collaboratively by Olivia M. F. Rapp
+  and David Bohnert under the supervision of Mihai Avram. David Bohnert developed
+  and maintained the revised analysis and visualization code accompanying this
+  manuscript revision.
+authors:
+  - family-names: Rapp
+    given-names: Olivia M. F.
+  - family-names: Bohnert
+    given-names: David
+repository-code: "https://github.com/davidbohnert/Predicting-LSD-induced-Subjective-Experience"
+license: MIT

@@ -1,107 +1,132 @@
-# Predicting LSD-induced Subjective Experience via Connectome-based Predictive Modeling
+# Neural Signatures of Lysergic Acid Diethylamide–Induced Subjective Experience Identified via Connectome-Based Predictive Modeling
 
-This repository contains the MATLAB and Python codebase associated with the manuscript:
+Analysis and visualization code accompanying the revised manuscript by Bohnert
+and colleagues. This repository includes internal validation, subject-wise
+cross-drug generalization, and supplementary sensitivity analyses. Changes from
+the earlier release are described in [CHANGELOG.md](CHANGELOG.md).
 
-> **Predicting LSD-induced Subjective Experience via Connectome-based Predictive Modeling**
+## Requirements and data
 
-This project utilizes Connectome-based Predictive Modeling (CPM) to identify functional brain networks predictive of subjective effects induced by LSD. It includes pipelines for internal cross-validation, external validation on independent datasets, and network visualization.
+Requires **MATLAB R2022b or newer**, with the Statistics and Machine Learning
+and Parallel Computing Toolboxes; tested with R2026a. R2022b is the minimum
+for the `Processes` pool profile used here. Earlier compatible syntax includes
+`arguments` blocks and name-value arguments. R2022b has not been tested directly.
 
-## 📄 Citation
-If you use this code or methodology, please cite the paper and the software DOI:
-* **Paper:** Bohnert, D., et al. (In Review). Neural Signatures of LSD-induced Subjective Experience Identified via Connectome-based Predictive Modeling.
-* **Code:** [![DOI](https://zenodo.org/badge/1125843579.svg)](https://doi.org/10.5281/zenodo.18109253)
+Use Python 3.12 in a virtual environment for figure and table generation.
+Run these commands from the repository root:
 
-## 🔎 Method provenance
-The CPM implementation in this repository was adapted for our datasets and analysis goals, and was partly guided by Boyle & Weng (2025), without altering the underlying CPM method.
-
-**Reference:** Boyle, R., & Weng, Y. (2025). *Studying the Connectome at a Large Scale.* In R. Whelan & H. Lemaître (Eds.), *Methods for Analyzing Large Neuroimaging Datasets* (pp. 365–394). Springer US. doi:10.1007/978-1-0716-4260-3_15
-
-## 👥 Contributors
-The CPM analysis pipeline was developed collaboratively by Olivia M. F. Rapp and David Bohnert, under the supervision of Mihai Avram.
-Network visualization scripts were implemented by David Bohnert.
-
-## 📂 Repository Structure
-
-```text
-.
-├── README.md               # Overview and instructions
-├── LICENSE                 # MIT License
-├── requirements.txt        # Python dependencies
-└── scripts/
-    ├── cross_validation/
-    │   ├── cross_validation_main.m    # Master script for internal CV
-    │   ├── permutation_test_cv.m      # Significance testing via shuffling
-    │   └── CPM_core_function.m        # Core CPM algorithm (k-fold)
-    ├── external_validation/
-    │   ├── external_validation_main.m # Master script for external validation
-    │   ├── permutation_test_external.m  # Permutation testing for external sets
-    │   └── CPM_core_function_external.m # Consensus mask training & testing
-    └── visualization/
-        └── visualize_networks.py      # Generates circle/matrix plots
+```bash
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
 ```
 
-## 🛠 Dependencies
-**MATLAB**
+On Windows, use `py -3.12 -m venv .venv` and `.venv\Scripts\python.exe`
+in place of `.venv/bin/python`. Python commands below assume the repository
+root is the working directory.
 
-Tested on MATLAB R2024a. Required Toolboxes:
+Participant-level data are not included. See [DATA_LAYOUT.md](DATA_LAYOUT.md)
+for processed inputs, subject ordering, and data access information.
 
-* Statistics and Machine Learning Toolbox (for partialcorr, regress)
+## Usage
 
-* Parallel Computing Toolbox (for parpool, parfor)
+```matlab
+repo = '/path/to/Predicting-LSD-induced-Subjective-Experience';
+addpath(genpath(repo));
+cfg = paper_analysis_config('/path/to/data', '/path/to/outputs');
+cfg.runtime.python_executable = fullfile(repo, '.venv', 'bin', 'python');
+% Windows: fullfile(repo, '.venv', 'Scripts', 'python.exe')
+internal_validation_main(cfg, "primary");
+```
 
-**Python (Visualization)**
+MATLAB invokes Python itself when rendering and verifying network figures.
+Set `cfg.runtime.python_executable` to the absolute path of the environment
+where you installed the requirements; activating it in a separate terminal
+is not sufficient.
 
-Used for generating matrix plots.
+The primary specification uses positive edges from LSD–placebo difference
+connectomes, adjusted for study, sex, age, and mean framewise displacement.
+MEQ30 uses LSD rows 20–67. Study indicators are selected for the represented
+studies; MEQ30 therefore uses study 2 as its reference. Feature selection uses
+Spearman correlation for BDE, GDE, and AED and Pearson correlation for OBN,
+VRS, and MEQ30. Prediction accuracy is evaluated with Pearson correlation.
+Cross-drug LOSO excludes the matching participant's LSD observation before
+feature selection and fitting.
 
-* Python 3.12.1
+Main inferential analyses default to 10,000 iterations; partition and
+learning-curve analyses use 1,000 per fit. For internal CV (including partition,
+learning-curve, and study-held-out tests) and cross-drug LOSO, the iteration
+count **includes the observed ordering**: 10,000 means one observed fit and
+9,999 shuffled fits; 1,000 means one observed and 999 shuffled fits.
+Freedman–Lane network-interaction and overlap tests instead use 10,000 null
+permutations **in addition to** the observed fit, with the usual +1 correction
+in their empirical p-values. These conventions preserve the paper calculations.
 
-* See requirements.txt for exact versions.
+Five process workers are requested.
+Run one analysis at a time. Each pipeline records settings and saves progress;
+incompatible checkpoints require a fresh output directory.
 
-* Installation: pip install -r requirements.txt
+| Paper output | Analysis and instructions |
+|---|---|
+| Table 1; Tables S5–S9, S11–S12, S14 | [Internal validation](pipelines/internal_validation/README.md) |
+| Table 2; Table S10 | [Cross-drug LOSO](pipelines/cross_drug_loso/README.md) |
+| Figure S1; Table S17 | [Partition sensitivity and stability](pipelines/partition_sensitivity/README.md) |
+| Figure S2 | [Learning curves](pipelines/learning_curves/README.md) |
+| Table S13 | [Parcellation sensitivity](pipelines/parcellation_sensitivity/README.md) |
+| Figures 1–3; Table S15 | [Network interactions](pipelines/network_interactions/README.md) |
+| Table S16 | [Network overlap](pipelines/network_overlap/README.md) |
 
-## ⚠️ Data Requirements & Assumptions
-Crucial: To maintain patient privacy, raw MRI data is not included. To reproduce the analysis, users must provide their own processed connectivity matrices formatted as follows:
+Tables S1–S4 and preprocessing/QC analyses are outside the CPM code's scope.
+This is a code release; aggregate results and participant data are not bundled.
+See [release_assets/README.md](release_assets/README.md) for the optional
+aggregate-output assembler.
 
-**File Structure:**
+## Repository structure
 
-* ./data/behav/: Behavioral vectors (.mat). Must be a single column vector (Subjects x 1).
+```text
+config/          Shared paths, analysis presets, and reproducibility settings
+pipelines/       Internal validation, cross-drug LOSO, and sensitivity analyses
+scripts/         Shared CPM functions, utilities, and optional release assembler
+metadata/        Atlas descriptions and cross-drug row mapping
+tests/           Synthetic MATLAB and Python checks; reference implementations
+release_assets/  Instructions for optionally packaging aggregate results
+```
 
-* ./data/connectomes/: Connectivity matrices (.mat). Must be 3D matrices (Node x Node x Subjects).
+## Checks
 
-* ./data/covars.mat: Covariates matrix.
+Small deterministic checks use synthetic data and do not run the paper analyses:
 
-**Subject Sorting (Strict):**
+```matlab
+run_all_tests
+```
 
-* The scripts do not match subjects by ID strings. Data is assumed to be pre-sorted. Row i in the behavioral file must correspond to index i in the 3rd dimension of the connectivity matrix.
+```bash
+.venv/bin/python -m unittest discover -s tests -p 'test_*.py'
+```
 
-**Hardcoded Subsets:**
+For a short serial input check, use a separate temporary output directory:
 
-* The scripts utilize fixed indices (e.g., subsetIdx = 20:67) for specific sub-analyses (e.g., MEQ30). Ensure your data is sorted such that these indices capture the correct sub-cohort, or adjust the indices in the main scripts.
+```matlab
+internal_validation_main(cfg, "primary", no_iterations=3, workers=0, ...
+    use_parallel=false, bootstrap_iterations=100, output_path=tempname);
+```
 
-## 🚀 Usage
-**1. Cross-Validation (Internal)**
+## Citation and contributions
 
-Navigate to scripts/cross_validation/. Run cross_validation_main.m to perform the primary analysis.
+Please cite the accompanying manuscript and the software version used.
+Machine-readable software citation information is in [CITATION.cff](CITATION.cff).
+The manuscript is under revision. Version 2.0.0 is prepared for the revised
+submission; its Zenodo DOI will be added after release publication. Earlier code
+remains available in Git history and the original `v1.0.0` tag.
 
-* Systematically tests parameters (thresholds, k-folds) and matrices (LSD, LSD_difference, LSD_GSR).
+The original CPM pipeline was developed collaboratively by Olivia M. F. Rapp
+and David Bohnert under the supervision of Mihai Avram. David Bohnert developed
+and maintained the revised analysis and visualization code accompanying this
+manuscript revision.
 
-* Validates models using 1000 permutation tests via permutation_test_cv.m.
+The implementation was adapted for these datasets and partly guided by Boyle,
+R., & Weng, Y. (2025), *Studying the Connectome at a Large Scale*, in R. Whelan
+& H. Lemaître (Eds.), *Methods for Analyzing Large Neuroimaging Datasets*,
+pp. 365–394. https://doi.org/10.1007/978-1-0716-4260-3_15.
 
-**2. External Validation**
-
-Navigate to scripts/external_validation/. Run external_validation_main.m to test models on independent datasets.
-
-* Uses a "Consensus Mask" approach (edges must appear in k-folds of the training set to be selected).
-
-* Significance is determined by shuffling training behavior labels via permutation_test_external.m.
-
-**3. Visualization**
-
-Navigate to scripts/visualization/. Run visualize_networks.py to create edge-count matrix plots.
-
-* Inputs: Requires edge-mask CSVs (optionally generated in permutation_test_external) and an atlas label file (e.g., Schaefer416_8networks.txt).
-
-* Outputs: PNG files saved to <output_dir>/matrix_plots/.
-
-## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Code is distributed under the [MIT License](LICENSE). Atlas sources are
+documented in [metadata/atlas/SOURCES.md](metadata/atlas/SOURCES.md).

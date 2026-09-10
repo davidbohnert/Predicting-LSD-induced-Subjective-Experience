@@ -1,8 +1,13 @@
-function [R_comb, R_pos, R_neg, mse_comb, mse_pos, mse_neg] = CPM_core_function(all_mats, all_behav, cv_partition, THR, covars, corr_type)
+function [R_comb, R_pos, R_neg, mse_comb, mse_pos, mse_neg] = CPM_core_function_reference(all_mats, all_behav, cv_partition, THR, covars, corr_type)
 % -------------------------------------------------------------------------
-% CPM_CORE_FUNCTION
+% CPM_CORE_FUNCTION_REFERENCE
 %   Performs Connectome-based Predictive Modeling (CPM) using a fixed
 %   cross-validation partition.
+%
+%   Source: public scripts/cross_validation/CPM_core_function.m at commit
+%   4035d87b8a7637b0d19fc5af2fc8f59f573c49c8 in the accompanying GitHub repo.
+%   The function name has only been suffixed with "_reference" so it cannot
+%   accidentally shadow the analysis wrapper.
 %
 % INPUTS:
 %   all_mats     - Connectivity matrices (Nodes x Nodes x Subjects)
@@ -33,7 +38,7 @@ function [R_comb, R_pos, R_neg, mse_comb, mse_pos, mse_neg] = CPM_core_function(
     for fold = 1:k
         
         % --- Define Train/Test Sets ---
-        % CRITICAL FIX: Wrap in find() to convert logical mask (0/1) to indices (1, 2, 5...)
+        % Convert fold membership to subject indices.
         train_idx = find(training(cv_partition, fold));
         test_idx  = find(test(cv_partition, fold));
 

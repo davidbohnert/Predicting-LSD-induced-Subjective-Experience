@@ -1,3 +1,6 @@
-numpy==2.3.4
-pandas==2.3.3
 matplotlib==3.10.7
+numpy==2.3.4
+scipy>=1.16,<2
+openpyxl>=3.1,<4
+pandas==2.3.3
+Pillow>=11,<13

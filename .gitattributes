@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.mat binary
+*.docx binary
+*.xlsx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.nii binary
+*.nii.gz binary
