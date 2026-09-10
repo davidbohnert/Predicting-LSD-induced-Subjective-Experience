@@ -1,5 +1,7 @@
 # Neural Signatures of Lysergic Acid Diethylamide–Induced Subjective Experience Identified via Connectome-Based Predictive Modeling
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22692846.svg)](https://doi.org/10.5281/zenodo.22692846)
+
 Analysis and visualization code accompanying the revised manuscript by Bohnert
 and colleagues. This repository includes internal validation, subject-wise
 cross-drug generalization, and supplementary sensitivity analyses. Changes from
@@ -114,8 +116,9 @@ internal_validation_main(cfg, "primary", no_iterations=3, workers=0, ...
 
 Please cite the accompanying manuscript and the software version used.
 Machine-readable software citation information is in [CITATION.cff](CITATION.cff).
-Version 2.0.0 accompanies the revised manuscript submission (10 September
-2026). Its archived software citation will be linked from the
+Version 2.0.0 accompanies the revised manuscript submission and is archived on
+Zenodo: https://doi.org/10.5281/zenodo.22692846. The corresponding source is
+available from the
 [GitHub release](https://github.com/davidbohnert/Predicting-LSD-induced-Subjective-Experience/releases/tag/v2.0.0).
 Earlier code remains available in Git history and the original `v1.0.0` tag.
 
